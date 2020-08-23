@@ -5,6 +5,11 @@ import org.junit.jupiter.api.Test;
 @DisplayName("Quiz: FriendList")
 public class FriendListAddTests {
 
+	@Test
+	@DisplayName("bound to fail")
+	public void bound_to_fail() {
+		assertEquals(true, false);
+	}
 
     @Test
     @DisplayName("adding 1 friend to an empty list")
